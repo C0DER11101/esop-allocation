@@ -30,4 +30,9 @@ public class AllocationModel extends AuditModel {
     @Column(name = "allocation_status")
     private String allocationStatus;
 
+    @Column(name = "grant_id")
+    private BigInteger grantId;
+
+    @Column(name = "plan_id")
+    private BigInteger planId;
 }
